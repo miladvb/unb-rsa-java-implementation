@@ -1,16 +1,4 @@
 # RSA Implementation
-
-## What is RSA?
-RSA (Rivest–Shamir–Adleman) is one of the most widely used public-key cryptosystems for secure data transmission. It relies on the mathematical difficulty of factoring the product of two large prime numbers. The RSA algorithm is fundamental to cryptography and underpins many secure communication protocols.
-
-RSA involves three primary operations:
-
-* Key Generation: Create a public/private key pair using two large prime numbers.
-* Encryption: Convert plaintext into ciphertext using the recipient’s public key.
-* Decryption: Recover the original plaintext from the ciphertext using the private key.
-
-This implementation of RSA was scratched without using built-in RSA libraries. It also explores real-world cryptanalysis and compares RSA’s performance with symmetric encryption (AES).
-
 This repository contains a Java-based implementation of three cryptographic scenarios involving RSA encryption. It includes the complete RSA algorithm from scratch, a vulnerability demonstration using a common modulus attack, and a performance comparison between RSA and AES.
 
 ## Code Structure
